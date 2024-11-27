@@ -1,0 +1,613 @@
+{
+  "id": 1353438579,
+  "username": "akkeoh",
+  "avatar": "nsZKtAr2R4sdJA.jpg",
+  "country_id": 0,
+  "flags": 74068,
+  "display_medals": "211106331099160",
+  "inserted": 1731940099,
+  "status": 5,
+  "ban": null,
+  "follower_count": 0,
+  "steamid": 415488459,
+  "twitch_username": "akkeoh",
+  "teams": [
+    {
+      "id": "kmvtpmCjKqMC",
+      "name": "Blocket Admin",
+      "logo": "kTlfHUHzTGWMvw.png",
+      "user_count": 2,
+      "creator_user_id": 1353438579,
+      "social_facebook": null,
+      "social_x": null,
+      "social_youtube": null,
+      "social_twitch": null,
+      "user_team_flags": 1,
+      "avg_elo": 2007,
+      "members": 2,
+      "tournaments": 0
+    }
+  ],
+  "friends": [
+    {
+      "id": 37864324,
+      "username": "PandaN",
+      "avatar": "bajlzoF8ltK5mA.jpg",
+      "country_id": 0,
+      "flags": 74052,
+      "display_medals": "50331661",
+      "inserted": 1731946142,
+      "status": 0
+    },
+    {
+      "id": 70773655,
+      "username": "Alanozr",
+      "avatar": "pJ3Z_iWfleHAjw.jpg",
+      "country_id": 0,
+      "flags": 74052,
+      "display_medals": "0",
+      "inserted": 1732560780,
+      "status": 0
+    },
+    {
+      "id": 139338903,
+      "username": "Korvlinkan1",
+      "avatar": "34ndNy2KWHDwBQ.jpg",
+      "country_id": 0,
+      "flags": 74052,
+      "display_medals": "24",
+      "inserted": 1732039462,
+      "status": 0
+    },
+    {
+      "id": 230065468,
+      "username": "snowzen",
+      "avatar": "-yYZ25SBshdFqw.jpg",
+      "country_id": 0,
+      "flags": 74052,
+      "display_medals": "105553143529506",
+      "inserted": 1731940103,
+      "status": 0
+    },
+    {
+      "id": 319608570,
+      "username": "fybe2fb8e2fbi",
+      "avatar": "pIcReYhjB3LMoA.jpg",
+      "country_id": 0,
+      "flags": 74052,
+      "display_medals": "41943064",
+      "inserted": 1731949139,
+      "status": 0
+    },
+    {
+      "id": 324694358,
+      "username": "Svedjehed",
+      "avatar": "yByhfUwfPynj9w.jpg",
+      "country_id": 0,
+      "flags": 107844,
+      "display_medals": "87960980553741",
+      "inserted": 1732588950,
+      "status": 0
+    },
+    {
+      "id": 334572475,
+      "username": "FoJe",
+      "avatar": "sB7qoNcBp8mXnQ.jpg",
+      "country_id": 0,
+      "flags": 320,
+      "display_medals": "57174675947567",
+      "inserted": 1731940103,
+      "status": 0
+    },
+    {
+      "id": 466213694,
+      "username": "F4ttoFelix",
+      "avatar": "djN2gphaZsPlbg.jpg",
+      "country_id": 0,
+      "flags": 74052,
+      "display_medals": "202310238076962",
+      "inserted": 1731940103,
+      "status": 0
+    },
+    {
+      "id": 699958984,
+      "username": "zilenT",
+      "avatar": "DUYRoaDx8nYHdg.jpg",
+      "country_id": 0,
+      "flags": 320,
+      "display_medals": "241892650385454",
+      "inserted": 1732025943,
+      "status": 0
+    },
+    {
+      "id": 758100594,
+      "username": "Nubb3n",
+      "avatar": "-Ns9nPFgR92z8w.jpg",
+      "country_id": 0,
+      "flags": 74052,
+      "display_medals": "41943064",
+      "inserted": 1732377864,
+      "status": 0
+    },
+    {
+      "id": 1030857248,
+      "username": "lisa",
+      "avatar": "4umLteQsnU84ww.jpg",
+      "country_id": 0,
+      "flags": 74052,
+      "display_medals": "206708282490925",
+      "inserted": 1731940103,
+      "status": 0
+    },
+    {
+      "id": 1036513771,
+      "username": "Majzs",
+      "avatar": "O0TUcgujDHgztw.jpg",
+      "country_id": 3,
+      "flags": 33280,
+      "display_medals": "13",
+      "inserted": 1731940103,
+      "status": 0
+    },
+    {
+      "id": 1042305450,
+      "username": "Skyler",
+      "avatar": "3XAgzg50fLabIw.jpg",
+      "country_id": 0,
+      "flags": 74052,
+      "display_medals": "50331693",
+      "inserted": 1732029993,
+      "status": 0
+    },
+    {
+      "id": 1163455004,
+      "username": "Guthen",
+      "avatar": "7zXEhBZtGlcNNw.png",
+      "country_id": 0,
+      "flags": 107844,
+      "display_medals": "197912214634530",
+      "inserted": 1731940103,
+      "status": 0
+    },
+    {
+      "id": 1212636866,
+      "username": "NessumDorma",
+      "avatar": "TQrlAPZHpu_f8Q.jpg",
+      "country_id": 0,
+      "flags": 74052,
+      "display_medals": "50331695",
+      "inserted": 1731962033,
+      "status": 0
+    },
+    {
+      "id": 1254314420,
+      "username": "eMtaiLZ",
+      "avatar": "AoY3JXOlhwnciA.jpg",
+      "country_id": 0,
+      "flags": 74052,
+      "display_medals": "24",
+      "inserted": 1732056611,
+      "status": 0
+    },
+    {
+      "id": 1264568124,
+      "username": "Fisse",
+      "avatar": "EtBMBwfslq9C7A.jpg",
+      "country_id": 0,
+      "flags": 74052,
+      "display_medals": "41943064",
+      "inserted": 1732135374,
+      "status": 0
+    },
+    {
+      "id": 1442486649,
+      "username": "VICER",
+      "avatar": "tDZGLNQ06ryksA.jpg",
+      "country_id": 0,
+      "flags": 320,
+      "display_medals": "0",
+      "inserted": 1732390031,
+      "status": 0
+    },
+    {
+      "id": 1501463189,
+      "username": "ArreN",
+      "avatar": "zMqjMgc3slCPBA.jpg",
+      "country_id": 0,
+      "flags": 480,
+      "display_medals": "0",
+      "inserted": 1731956893,
+      "status": 0
+    },
+    {
+      "id": 1722971581,
+      "username": "Meius",
+      "avatar": "2YLP8AIvf1pV-Q.jpg",
+      "country_id": 0,
+      "flags": 320,
+      "display_medals": "0",
+      "inserted": 1732059537,
+      "status": 0
+    },
+    {
+      "id": 1745952045,
+      "username": "c10",
+      "avatar": "4P5uEL_1b4fMaQ.jpg",
+      "country_id": 0,
+      "flags": 524800,
+      "display_medals": "0",
+      "inserted": 1732169519,
+      "status": 0
+    },
+    {
+      "id": 1912162166,
+      "username": "Aya",
+      "avatar": "6ekneiae_IFgIw.jpg",
+      "country_id": 0,
+      "flags": 512,
+      "display_medals": "0",
+      "inserted": 1732215863,
+      "status": 0
+    },
+    {
+      "id": 1919608550,
+      "username": "Kapanbiceps",
+      "avatar": "X-ALepbMN5pq-g.jpg",
+      "country_id": 0,
+      "flags": 74052,
+      "display_medals": "24",
+      "inserted": 1731949990,
+      "status": 0
+    },
+    {
+      "id": 1922616187,
+      "username": "BennyBrunorm",
+      "avatar": "wvI5VsgGxNnrbw.jpg",
+      "country_id": 0,
+      "flags": 74052,
+      "display_medals": "0",
+      "inserted": 1732650129,
+      "status": 0
+    },
+    {
+      "id": 2308871012,
+      "username": "Daiim",
+      "avatar": "AuX5J1eqwRefew.jpg",
+      "country_id": 0,
+      "flags": 74052,
+      "display_medals": "87960980553773",
+      "inserted": 1731948224,
+      "status": 0
+    },
+    {
+      "id": 2438232641,
+      "username": "kliinkel",
+      "avatar": "jK9OXvzv78kRRw.jpg",
+      "country_id": 0,
+      "flags": 74052,
+      "display_medals": "0",
+      "inserted": 1732643899,
+      "status": 0
+    },
+    {
+      "id": 2493590238,
+      "username": "Jokkasjaervi",
+      "avatar": "-jHlfSj_LJEARw.jpg",
+      "country_id": 0,
+      "flags": 74052,
+      "display_medals": "0",
+      "inserted": 1731950384,
+      "status": 0
+    },
+    {
+      "id": 2609481004,
+      "username": "Cirtusen",
+      "avatar": "e7ohX6T6y72iZA.jpg",
+      "country_id": 0,
+      "flags": 320,
+      "display_medals": "105553212735543",
+      "inserted": 1731940103,
+      "status": 0
+    },
+    {
+      "id": 2727367976,
+      "username": "Haaland",
+      "avatar": "FpwJZNGciT9oVA.jpg",
+      "country_id": 0,
+      "flags": 320,
+      "display_medals": "0",
+      "inserted": 1732454205,
+      "status": 0
+    },
+    {
+      "id": 2900529711,
+      "username": "H1LLSANGELS",
+      "avatar": "AlQ8rLF5kr8k8Q.jpg",
+      "country_id": 0,
+      "flags": 320,
+      "display_medals": "24",
+      "inserted": 1732049128,
+      "status": 0
+    },
+    {
+      "id": 2962414365,
+      "username": "Bompe",
+      "avatar": "egioZ1Ow8pYZJA.jpg",
+      "country_id": 0,
+      "flags": 74052,
+      "display_medals": "0",
+      "inserted": 1732015354,
+      "status": 0
+    },
+    {
+      "id": 3155334005,
+      "username": "cubza",
+      "avatar": "sBRa6V0EXMjJwA.jpg",
+      "country_id": 0,
+      "flags": 73988,
+      "display_medals": "41943064",
+      "inserted": 1732385197,
+      "status": 0
+    },
+    {
+      "id": 3287218466,
+      "username": "losk",
+      "avatar": "VOl9FdvG82Vr1Q.jpg",
+      "country_id": 0,
+      "flags": 512,
+      "display_medals": "0",
+      "inserted": 1732407097,
+      "status": 0
+    },
+    {
+      "id": 3447211447,
+      "username": "cruzco",
+      "avatar": "vcTBIrZTuw8N-A.jpg",
+      "country_id": 0,
+      "flags": 74052,
+      "display_medals": "115343384",
+      "inserted": 1732110379,
+      "status": 0
+    },
+    {
+      "id": 3563682855,
+      "username": "OliviaEkberG",
+      "avatar": "LZTiUBM1xw8N2g.jpg",
+      "country_id": 0,
+      "flags": 75076,
+      "display_medals": "105553143529506",
+      "inserted": 1731940103,
+      "status": 0
+    },
+    {
+      "id": 3735227724,
+      "username": "SavageMoe",
+      "avatar": "105YKvDbR8EN5A.jpg",
+      "country_id": 0,
+      "flags": 320,
+      "display_medals": "0",
+      "inserted": 1732460665,
+      "status": 0
+    },
+    {
+      "id": 3822627432,
+      "username": "pani",
+      "avatar": "Ng3oMRSUN7GtFQ.jpg",
+      "country_id": 0,
+      "flags": 34113,
+      "display_medals": "57174699016247",
+      "inserted": 1731940103,
+      "status": 5
+    },
+    {
+      "id": 3837437612,
+      "username": "ryrstrom",
+      "avatar": "oiVLxCwwdsLs6w.jpg",
+      "country_id": 0,
+      "flags": 74052,
+      "display_medals": "211106331099180",
+      "inserted": 1731945688,
+      "status": 0
+    },
+    {
+      "id": 3863229186,
+      "username": "Fitus",
+      "avatar": "5oFMVCikh88Xsw.jpg",
+      "country_id": 0,
+      "flags": 320,
+      "display_medals": "24",
+      "inserted": 1732306195,
+      "status": 0
+    },
+    {
+      "id": 3959410369,
+      "username": "daMench",
+      "avatar": "gECliIVYYZDVww.jpg",
+      "country_id": 0,
+      "flags": 448,
+      "display_medals": "0",
+      "inserted": 1732649980,
+      "status": 0
+    },
+    {
+      "id": 4066523520,
+      "username": "tritan",
+      "avatar": "yo7wB2UEzw-rQA.jpg",
+      "country_id": 0,
+      "flags": 320,
+      "display_medals": "0",
+      "inserted": 1732129894,
+      "status": 0
+    },
+    {
+      "id": 4106275037,
+      "username": "njursten",
+      "avatar": "FPRhZ0LA7pBmwQ.jpg",
+      "country_id": 0,
+      "flags": 320,
+      "display_medals": "0",
+      "inserted": 1732284518,
+      "status": 0
+    },
+    {
+      "id": 4132949348,
+      "username": "sNusk1",
+      "avatar": "wLuXIRP6wf-mfg.jpg",
+      "country_id": 0,
+      "flags": 74052,
+      "display_medals": "0",
+      "inserted": 1732383398,
+      "status": 0
+    }
+  ],
+  "medals": [
+    {
+      "id": 24,
+      "placement": 882,
+      "inserted": 1732054877
+    },
+    {
+      "id": 44,
+      "placement": 380,
+      "inserted": 1731962764
+    },
+    {
+      "id": 46,
+      "placement": 303,
+      "inserted": 1731962784
+    },
+    {
+      "id": 47,
+      "placement": 687,
+      "inserted": 1731962772
+    },
+    {
+      "id": 48,
+      "placement": 264,
+      "inserted": 1731962776
+    },
+    {
+      "id": 53,
+      "placement": 718,
+      "inserted": 1731962779
+    },
+    {
+      "id": 70,
+      "placement": 79,
+      "inserted": 1732637597
+    }
+  ],
+  "header": {
+    "name": "Motions",
+    "image": "4kyYZUx3V9oQgQ.png"
+  },
+  "game_stats": {
+    "matches": 14,
+    "wins": 9,
+    "ties": 0,
+    "losses": 5,
+    "timeouts": 0,
+    "win_streak": 4,
+    "max_win_streak": 4,
+    "lose_streak": 0,
+    "max_lose_streak": 3,
+    "reported": 0,
+    "elo": 2063,
+    "level": 10,
+    "xp": 22700,
+    "commended_teamwork": 2,
+    "commended_leadership": 0,
+    "commended_supportive": 2
+  },
+  "cs_fields": {
+    "kills": 221,
+    "deaths": 225,
+    "headshots": 98,
+    "rounds": 313,
+    "damage_dealt": 23672,
+    "aces": 0,
+    "clutches": 1,
+    "bomb_plants": 15
+  },
+  "level_history": [
+    {
+      "level": 3,
+      "inserted": 1731940232
+    },
+    {
+      "level": 4,
+      "inserted": 1731940256
+    },
+    {
+      "level": 5,
+      "inserted": 1731945323
+    },
+    {
+      "level": 6,
+      "inserted": 1731955466
+    },
+    {
+      "level": 7,
+      "inserted": 1731955466
+    },
+    {
+      "level": 8,
+      "inserted": 1732054877
+    },
+    {
+      "level": 9,
+      "inserted": 1732056611
+    },
+    {
+      "level": 10,
+      "inserted": 1732643899
+    }
+  ],
+  "item_drops": [],
+  "clips": [],
+  "spaces": [
+    {
+      "id": "kcHDHBGgFBcT",
+      "name": "Lilmix",
+      "slug": "lilmix",
+      "flags": 24,
+      "logo": "CNKuLHxE8Db--w.png"
+    },
+    {
+      "id": "kcHGqrFgTMdg",
+      "name": "HeatoN",
+      "slug": "heaton",
+      "flags": 24,
+      "logo": "cmH54ZP6d37cVQ.png"
+    },
+    {
+      "id": "kcHHBPTFHBdn",
+      "name": "7licious",
+      "slug": "7licious",
+      "flags": 24,
+      "logo": "IsC5yR1BVZg_Xw.png"
+    },
+    {
+      "id": "kcHHGvmqmmdp",
+      "name": "Perrababy",
+      "slug": "perrababy",
+      "flags": 24,
+      "logo": "4h2Q2mJBapej_Q.png"
+    },
+    {
+      "id": "kcHHRVDPNMdr",
+      "name": "Alliance",
+      "slug": "alliance",
+      "flags": 24,
+      "logo": "pL4ooQQRQKBceQ.png"
+    },
+    {
+      "id": "krPTjCVpVPrd",
+      "name": "ibraofc",
+      "slug": "ibraofc",
+      "flags": 24,
+      "logo": "GvbN9L59m27Saw.png"
+    }
+  ],
+  "username_history": []
+}
