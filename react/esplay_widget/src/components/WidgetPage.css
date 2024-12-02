@@ -8,12 +8,14 @@
 .widget-content {
   display: flex;
   flex-direction: row;
-  width: 450px;
+  width: 600px;
+  height: 140px;
   max-width: 800px;  /* Reduced max-width further */
-  background-color: #f9f9f9;
+  background-color: #1A191C;
   padding: 10px;  /* Reduced padding inside the widget */
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Reduced shadow to make it more compact */
+  border-radius: 90px;
 }
 
 .rank-column {
@@ -25,8 +27,8 @@
 }
 
 .elo-image {
-  width: 100px;  /* Reduced size of the rank image */
-  height: 100px;
+  width: 120px;  /* Reduced size of the rank image */
+  height: 120px;
   object-fit: cover;
   border-radius: 8px;
   margin-right: 12px;
@@ -44,24 +46,24 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  margin-top: -8px;
 }
 
 .username {
-  font-size: 15px;  /* Further reduced font size for the username */
+  font-size: 18px;  /* Further reduced font size for the username */
   margin: 0;
-  margin-bottom: -18px;
-  margin-top: -12px;
+  margin-bottom: -24px;
 }
 
 .elo p {
-  font-size: 13px;  /* Reduced font size for the elo */
+  font-size: 14px;  /* Reduced font size for the elo */
   margin: 0;
 }
 
 .stats-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 10px;  /* Reduced space above the stats grid */
+  margin-top: 5px;  /* Reduced space above the stats grid */
   width: 80%;
 }
 
@@ -78,6 +80,17 @@
 }
 
 .win-streak-image img {
-  max-width: 120px;  /* Kept the win streak image at its maximum size */
+  max-width: 125px;  /* Kept the win streak image at its maximum size */
   height: auto;
+}
+
+p {
+	color: white;
+}
+b {
+	color: white;
+}
+
+h2 {
+	color: white;
 }

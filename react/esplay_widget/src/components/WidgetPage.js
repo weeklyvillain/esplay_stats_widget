@@ -64,7 +64,9 @@ function WidgetPage() {
   // Determine elo image based on user's elo rating
   let eloImage = "";
   const elo = stats.game_stats.elo;
-  if (elo >= 2300) {
+  if (elo == null) {
+    eloImage = "default.png"
+  } else if (elo >= 2300) {
     eloImage = "global.png";
   } else if (elo >= 2100) {
     eloImage = "elite_3.png";
