@@ -1,5 +1,6 @@
 # esplay_stats_widget
-Sourcecode for akkeoh.com stats widget for Esplay.com
+Sourcecode for Esplay.com widget. 
+Get your Stream widget on [![widget.akkeoh.com](widget.akkeoh.com)
 
 
 Questions? Join Discord!
