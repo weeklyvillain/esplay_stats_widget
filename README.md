@@ -1,7 +1,8 @@
 # esplay_stats_widget
 Sourcecode for Esplay.com widget. 
-Get your Stream widget on [widget.akkeoh.com](https://widget.akkeoh.com)
+Get your Stream widget on [akkeoh.com:3000](http://akkeoh.com:3000)
 
+This is app in EOL use. If you want the local hosted version of this plugin please check out [EsplayWidget](https://github.com/apefhy/EsplayWidget)
 
 Questions? Join Discord!
 
