@@ -9,7 +9,7 @@ const app = express();
 const port = 5000;
 
 // Array of allowed origins (you can add more if needed)
-const allowedOrigins = ['http://localhost:3000', 'http://akkeoh.com:3000'];
+const allowedOrigins = ['http://localhost:3000', 'http://esplay.weeklyvillain.dev', 'https://esplay.weeklyvillain.dev'];
 
 app.use(
   cors({
@@ -26,21 +26,6 @@ app.use(
 
 // Middleware to parse JSON bodies
 app.use(bodyParser.json());
-
-// Proxy route to forward requests to the external API (if needed)
-app.get("/proxy-api", async (req, res) => {
-  const { username } = req.query;
-  const apiUrl = `https://esplay.com/api/profile/get?username=${username}&teams=1&friends=1&header=1&followers=1&medals=1&game_stats=1&game_id=1&level_history=1&clips=1&twitch=1&steam=1&spaces=1&username_history=1&item_drops=1`;
-
-  try {
-    const response = await axios.get(apiUrl);
-    res.json(response.data); // Send the data from esplay.com API to the React app
-  } catch (error) {
-    console.error("Error fetching data:", error);
-    res.status(500).send("Error fetching data from the API");
-  }
-});
-
 
 // Route to serve stats data from JSON files in the private 'stats' folder
 app.get("/stats/:username", async (req, res) => {
