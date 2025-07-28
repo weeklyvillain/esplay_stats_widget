@@ -23,7 +23,7 @@ function WidgetPage() {
       // If no stats from state or localStorage, fetch from the backend server
       if (!statsData) {
         try {
-          const response = await fetch(`http://esplay.weeklyvillain.dev/stats/${urlUsername}`);
+          const response = await fetch(`http://185.173.235.64:5000/stats/${urlUsername}`);
           if (response.ok) {
             statsData = await response.json();
           } else {

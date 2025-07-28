@@ -9,7 +9,7 @@ const app = express();
 const port = 5000;
 
 // Array of allowed origins (you can add more if needed)
-const allowedOrigins = ['http://localhost:3000', 'http://esplay.weeklyvillain.dev', 'https://esplay.weeklyvillain.dev'];
+const allowedOrigins = ['http://localhost:3000', 'http://185.173.235.64:3000', 'https://esplay.weeklyvillain.dev'];
 
 app.use(
   cors({
