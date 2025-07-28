@@ -41,54 +41,36 @@ app.get("/proxy-api", async (req, res) => {
   }
 });
 
-// Route to save data to the server as a .json file
-app.post("/save-stats", (req, res) => {
-  const { username, stats } = req.body;
-
-  // Define the directory to store the stats files (private folder, not public)
-  const statsDir = path.join(__dirname, 'stats'); // Save in private 'stats' folder
-  if (!fs.existsSync(statsDir)) {
-    fs.mkdirSync(statsDir, { recursive: true }); // Create the folder if it doesn't exist
-  }
-
-  // Define the file path to save the stats for the user
-  const filePath = path.join(statsDir, `${username}.json`);
-
-  // Check if this is the first request (if file doesn't exist, it's the first request)
-  const isFirstRequest = !fs.existsSync(filePath);
-
-  // Log the first request for the user
-  if (isFirstRequest) {
-    const firstRequestTimestamp = new Date().toISOString();
-    console.log(`[${firstRequestTimestamp}] First request for user: ${username}`);
-  }
-
-  // Save the stats data as a JSON file
-  fs.writeFile(filePath, JSON.stringify(stats, null, 2), (err) => {
-    if (err) {
-      console.error("Error saving data:", err);
-      return res.status(500).send("Error saving data.");
-    }
-
-    // Log the update time
-    const timestamp = new Date().toISOString();
-    console.log(`[${timestamp}] Data updated for user: ${username}`);
-    res.send("Data saved successfully.");
-  });
-});
 
 // Route to serve stats data from JSON files in the private 'stats' folder
-app.get("/stats/:username", (req, res) => {
+app.get("/stats/:username", async (req, res) => {
   const { username } = req.params;
   const filePath = path.join(__dirname, 'stats', `${username}.json`);
 
   // Check if the file exists
-  if (fs.existsSync(filePath)) {
-    res.sendFile(filePath); // Serve the file directly
-  } else {
-    console.log(`Stats file not found for user: ${username}`);
-    res.status(404).json({ error: "User stats not found" }); // Respond with a JSON error
+  if (!fs.existsSync(filePath)) {
+    console.error(`Stats file for user ${username} not found. Fetching from API and saving...`);
+    const apiUrl = `https://esplay.com/api/profile/get?username=${username}&teams=1&friends=1&header=1&followers=1&medals=1&game_stats=1&game_id=1&level_history=1&clips=1&twitch=1&steam=1&spaces=1&username_history=1&item_drops=1`;
+    const response = await fetch(
+      apiUrl,
+      {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      }
+    );
+    if (!response.ok) {
+      console.error("Error fetching data from API:", response.statusText);
+      return res.status(500).send("Error fetching data from the API.");
+    }
+    const jsonData = await response.json();
+    // Save the fetched data to the file
+    fs.writeFileSync(filePath, JSON.stringify(jsonData, null, 2));
+    console.log(`Fetched and saved data for user: ${username}`);
   }
+
+  res.sendFile(filePath); // Serve the file directly
 });
 
 // Function to refresh stats for all users in the 'stats' folder

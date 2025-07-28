@@ -23,7 +23,7 @@ function WidgetPage() {
       // If no stats from state or localStorage, fetch from the backend server
       if (!statsData) {
         try {
-          const response = await fetch(`http://akkeoh.com:5000/stats/${urlUsername}`);
+          const response = await fetch(`http://localhost:5000/stats/${urlUsername}`);
           if (response.ok) {
             statsData = await response.json();
           } else {
